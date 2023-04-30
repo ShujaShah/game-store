@@ -1,5 +1,4 @@
 import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
-import { SortOrder } from "mongoose";
 import { BsChevronDown } from "react-icons/bs";
 
 interface Props {
