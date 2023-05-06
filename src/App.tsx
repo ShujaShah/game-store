@@ -10,7 +10,7 @@ import SortSelector from "./components/SortSelector";
 import GameHeading from "./components/GameHeading";
 
 
-//test commit
+//test commit another
 export interface GameQuery {
   genre: Genre | null;
   platform: Platform | null;
