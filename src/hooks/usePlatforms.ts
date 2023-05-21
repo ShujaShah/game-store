@@ -16,7 +16,7 @@ const usePlatforms = () =>
     queryKey: ["platform"],
     queryFn: apiClient.getAll,
     staleTime: 24 * 60 * 60 * 1000, // 24 hours
-    //initialData: { count: platforms.results.length,  results: platforms }
+    // initialData: { count: platforms.results.length,  results: platforms }
   });
 
 export default usePlatforms;
